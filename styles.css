@@ -1,0 +1,47 @@
+body{
+    background: rgba(14, 163, 255, 0.404);
+    font-size: 20px;
+    font-family: "Sans-serif", "Segoe UI Emoji", "Apple Color Emoji";
+    margin: 100px;
+    padding: 10px;
+
+}
+.btn {
+    border: none;
+    padding: 0px 0px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+.image{
+    display: flex;
+    align-items:center;
+
+}
+.title {
+    font-size: large;
+    background-image:url(https://images.unsplash.com/photo-1561211919-1947abbbb35b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3QlMjBibHVlfGVufDB8fDB8fA%3D%3D&w=1000&q=80) ;
+}
+
+.container {
+    margin: 20px;
+    width: auto;
+    background: rgb(64, 127, 209);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 3px 3px rgba(53, 43, 12, 0.836);
+}
+.container.left {
+    position: relative;
+    background: rgb(70, 145, 207);
+    padding:40px;
+}
+
+.container.right {
+    position: relative;
+    background: #fff;
+    padding:40px;
+}
+
